@@ -1,0 +1,117 @@
+/* .navbar img {
+  max-width: 35vw;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .navbar img {
+    max-width: 20vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar img {
+    max-width: 15vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    
+  }
+
+  .navbar button {
+    align-self: flex-end;
+  }
+
+  .navbar-section {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-section.open {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    background-color: rgb(236, 244, 251);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar button {
+    background-color: rgb(106, 106, 244);
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .navbar button {
+    display: none;
+  }
+}
+
+/
+@media (max-width: 1024px) {
+  .navbar-section {
+    display: none;
+  }
+}
+  const images = [
+    "/image1-city.jpg",
+    "/image2-team.jpg",
+    "/image3-bride.jpg",
+    "/image4-issues.jpg",
+    "/image5-sky.jpg",
+    "/image6-beach.jpg",
+    "/image7.jpg",
+    "/image8-hc.jpg",
+    "/image9-smoking.jpg",
+    "/image10-cricketIPL.jpg",
+  ];
+
+
+@media (min-width: 1024px) {
+  .navbar-section {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .navbar-section span:hover {
+    color: rgb(215, 210, 210);
+    cursor: pointer;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .navbar {
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-section.open {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 244, 251);
+    width: 100%; 
+    gap: 2rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding: 1rem 0; 
+    margin-top: 1rem; 
+  }
+}
+
+ */
