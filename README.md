@@ -1,14 +1,14 @@
-# 🏝️ Portfolio_assignment
+# Portfolio_assignment
 
 A simple and responsive React website built using Vite and CSS.
 
-## 🔗 Live Demo
+## Live Demo
 
-👉 Visit Live on Verce--(https://portfolio-assignment-tawny-pi.vercel.app/)
+Visit Live on Verce--(https://portfolio-assignment-tawny-pi.vercel.app/)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- ⚛️ React (with Vite)
-- 🎨 CSS
-- 🚀 Vercel (for deployment)
+- React (with Vite)
+- CSS
+- Vercel (for deployment)
 
