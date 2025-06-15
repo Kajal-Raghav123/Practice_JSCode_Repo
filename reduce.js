@@ -35,10 +35,23 @@
 // const message = str.reduce((acc,curr)=> acc + curr,"")
 // console.log(message)
 
-const fruits = ['apple', 'banana', 'apple'];
+// const fruits = ['apple', 'banana', 'apple'];
 
-const count = fruits.reduce((acc, curr) => {
-  acc[curr] = (acc[curr] || 0) + 1;
+// const count = fruits.reduce((acc, curr) => {
+//   acc[curr] = (acc[curr] || 0) + 1;
+//   return acc;
+// }, {});
+// console.log(count)
+const users = [
+  { name: "Alice", age: 20 },
+  { name: "Bob", age: 25 },
+  { name: "Charlie", age: 20 },
+];
+const age = users.reduce((acc, curr) => {
+  if (!acc[curr.age]) {
+    acc[curr.age] = [];
+  }
+  acc[curr.age].push(curr.name);
   return acc;
 }, {});
-console.log(count)
+console.log(age);
