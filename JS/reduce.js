@@ -156,16 +156,3 @@ const data = [
 // } ,new Map())
 // const agegroup = Object.fromEntries(age)
 // console.log(agegroup)
-const products = [
-  { id: 1, tags: ['stationery', 'writing'] },
-  { id: 2, tags: ['stationery'] },
-  { id: 3, tags: ['kitchen', 'appliance'] },
-  { id: 4, tags: ['writing', 'kitchen'] },
-];
-const totalTags = products.reduce((acc,curr)=>{
-curr.tags.forEach(tag=>{
-  acc[tag] = (acc[tag] || 0) + 1
-})
-return acc
-},{})
-console.log(totalTags)
