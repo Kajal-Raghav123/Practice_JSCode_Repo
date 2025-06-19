@@ -25,3 +25,13 @@
 //      console.log(await step3())
 //  }
 //  runSteps()
+async function getData(){
+   try{
+     const response = await fetch('http://123kajal.com')
+    const data = await response.json()
+    console.log(data)
+   }catch(error){
+    console.error('Something went wrong',error.message)
+   }
+}
+getData()
