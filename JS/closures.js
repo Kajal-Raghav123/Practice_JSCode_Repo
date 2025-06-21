@@ -38,12 +38,12 @@
 // let result = count++;
 // console.log(result); // 0
 // console.log(count); 
-function outer(){
-    let name = "JavaScript"
-    function inner(){
-        console.log(name);
-    }
-    return inner;
-}
-const funcCall = outer();
-funcCall();
+// function outer(){
+//     let name = "JavaScript"
+//     function inner(){
+//         console.log(name);
+//     }
+//     return inner;
+// }
+// const funcCall = outer();
+// funcCall();
