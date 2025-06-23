@@ -156,14 +156,38 @@ const data = [
 // } ,new Map())
 // const agegroup = Object.fromEntries(age)
 // console.log(agegroup)
-const cartItems = [
-  { name: "Laptop", price: 50000, quantity: 1 },
-  { name: "Mouse", price: 1000, quantity: 2 },
-  { name: "Keyboard", price: 3000, quantity: 1 }
-];
-const totalPrice = cartItems.reduce((acc,curr)=>{
-acc = acc + curr.price * curr.quantity
-return acc
-},0)
+// const cartItems = [
+//   { name: "Laptop", price: 50000, quantity: 1 },
+//   { name: "Mouse", price: 1000, quantity: 2 },
+//   { name: "Keyboard", price: 3000, quantity: 1 }
+// ];
+// const totalPrice = cartItems.reduce((acc,curr)=>{
+// acc = acc + curr.price * curr.quantity
+// return acc
+// },0)
 
-console.log(totalPrice * 1.10) 
+// console.log(totalPrice * 1.10) 
+// const transactions = [
+//   { type: "credit", amount: 5000 },
+//   { type: "debit", amount: 1200 },
+//   { type: "credit", amount: 2200 },
+//   { type: "debit", amount: 800 }
+// ];
+// const netBalance = transactions.reduce((acc,curr)=>{
+// if(curr.type === "credit" ){
+//   acc = acc + curr.amount
+// }else{
+//   acc = acc - curr.amount
+// }
+
+// return acc
+// },0)
+
+// console.log(netBalance)
+const posts = [
+  { user: "alice", post: "Hello" },
+  { user: "bob", post: "Hi" },
+  { user: "alice", post: "Another one" },
+  { user: "alice", post: "Again" },
+  { user: "bob", post: "Cool!" }
+];
