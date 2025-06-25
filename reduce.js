@@ -184,10 +184,34 @@ const data = [
 // },0)
 
 // console.log(netBalance)
-const posts = [
-  { user: "alice", post: "Hello" },
-  { user: "bob", post: "Hi" },
-  { user: "alice", post: "Another one" },
-  { user: "alice", post: "Again" },
-  { user: "bob", post: "Cool!" }
-];
+// const posts = [
+//   { user: "alice", post: "Hello" },
+//   { user: "bob", post: "Hi" },
+//   { user: "alice", post: "Another one" },
+//   { user: "alice", post: "Again" },
+//   { user: "bob", post: "Cool!" }
+// ];
+// const countPost = posts.reduce((acc,curr)=>{
+  
+// if(!acc[curr.user]){
+//  acc[curr.user] = 1;
+// }else{
+//   acc[curr.user]++
+// }
+// return acc
+// },{})
+// console.log(countPost)
+// const movies = [
+//   { title: "Inception", rating: 8.8 },
+//   { title: "Interstellar", rating: 8.6 },
+//   { title: "Dunkirk", rating: 7.9 }
+// ];
+
+// const avg = movies.reduce((acc,curr)=>{
+// acc +=  curr.rating
+//  if (index === array.length - 1) {
+//     return acc / array.length;
+//   }
+// return acc
+// },0)
+// console.log(avg.toFixed(2))
