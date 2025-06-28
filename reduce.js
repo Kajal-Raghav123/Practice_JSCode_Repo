@@ -207,11 +207,3 @@ const data = [
 //   { title: "Dunkirk", rating: 7.9 }
 // ];
 
-// const avg = movies.reduce((acc,curr)=>{
-// acc +=  curr.rating
-//  if (index === array.length - 1) {
-//     return acc / array.length;
-//   }
-// return acc
-// },0)
-// console.log(avg.toFixed(2))
