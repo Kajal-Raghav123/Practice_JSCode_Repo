@@ -191,19 +191,6 @@ const data = [
 //   { user: "alice", post: "Again" },
 //   { user: "bob", post: "Cool!" }
 // ];
-// const countPost = posts.reduce((acc,curr)=>{
-  
-// if(!acc[curr.user]){
-//  acc[curr.user] = 1;
-// }else{
-//   acc[curr.user]++
-// }
-// return acc
-// },{})
-// console.log(countPost)
-// const movies = [
-//   { title: "Inception", rating: 8.8 },
-//   { title: "Interstellar", rating: 8.6 },
-//   { title: "Dunkirk", rating: 7.9 }
-// ];
+
+
 
